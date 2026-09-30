@@ -12,3 +12,9 @@ var Sent1 = "This is the beginning of the string", Sent2 = " and this is the end
 document.write(Sent1 + Sent2); //Concatenating 2 strings
 
 A = Sent1 + Sent2; // Expression
+
+function myFunction() {
+	var sentence = "I am learning";
+	sentence += " a lot from this book!";
+	document.getElementById("Concatenate") .innerHTML = sentence;
+}
