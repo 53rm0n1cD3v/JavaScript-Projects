@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Creating an Object</title>
+</head>
+<body>
+
+  <h2>JavaScript Object Example</h2>
+  <p id="output"></p>
+
+  <script>
+    // Create an object using let
+    let car = {
+      brand: "Toyota",
+      model: "Corolla",
+      year: 2020,
+      getInfo: function() {
+        return `Car: ${this.brand} ${this.model} (${this.year})`;
+      }
+    };
+
+    // Display the result in the HTML page
+    document.getElementById("output").textContent = car.getInfo();
+  </script>
+
+</body>
+</html>
