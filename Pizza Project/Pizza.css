@@ -1,0 +1,83 @@
+
+
+body {
+	background: lightblue;
+}
+
+h1 {
+	font-family: Times New Roman;
+	font-style: italic;
+	color: green;
+}
+
+h3 {
+	font-family: Arial;
+	color: blue;
+}
+
+div {
+	color: blue;
+	font-family: Arial;
+}
+
+/* Main background container */
+#menuBG {
+    width: 600px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+/* Form container */
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+
+/* Column 1 */
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* Column 2 */
+.middle {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* Column 3 */
+.right {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* Receipt text */
+#showText {
+    width: 300px;
+    height: 190px;
+    float: left;
+}
+
+/* Total price box */
+#totalPrice {
+    width: 300px;
+    height: 190px;
+    float: right;
+}
+
+/* Cart container */
+#cart {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* Order button */
+#btnOrder {
+    margin: 10px 0px 0px 250px;
+    width: 100px;
+    height: 40px;
+}
