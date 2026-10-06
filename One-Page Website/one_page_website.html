@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mount Snowdon</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="CSS/one_page_website.css">
+</head>
+
+<body>
+
+    <h1>Trips to Mount Snowdon every Saturday</h1>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- MAIN IMAGE -->
+    <div class="image">
+        <img src="./images/Mount_Snowdon.jpg" alt="Mount Snowdon">
+        <div class="centered">Mount Snowdon in Summer</div>
+    </div>
+
+    <!-- TITLES + ICONS (FIXED + MATCHED) -->
+    <div style="text-align: center; margin-top: 20px;">
+
+        <div style="display: inline-block; margin: 0 15px;">
+            <p>Cherry Blossoms</p>
+            <img src="./images/plant1.png" class="lightbox-img" alt="Cherry Blossoms" style="width: 60px;">
+        </div>
+
+        <div style="display: inline-block; margin: 0 15px;">
+            <p>Sunflowers</p>
+            <img src="./images/plant2.png" class="lightbox-img" alt="Sunflowers" style="width: 60px;">
+        </div>
+
+        <div style="display: inline-block; margin: 0 15px;">
+            <p>Succulents</p>
+            <img src="./images/plant3.png" class="lightbox-img" alt="Succulents" style="width: 60px;">
+        </div>
+
+        <div style="display: inline-block; margin: 0 15px;">
+            <p>Nerve Plants</p>
+            <img src="./images/plant4.png" class="lightbox-img" alt="Nerve Plants" style="width: 60px;">
+        </div>
+
+    </div>
+
+    <!-- LIGHTBOX OVERLAY -->
+    <div id="lightbox">
+        <span id="closeBtn">&times;</span>
+        <img id="lightboxImage" alt="">
+    </div>
+
+    <!-- REGISTER LINK -->
+    <nav>
+        <a href="#register" id="link">Register</a>
+    </nav>
+
+    <!-- OVERLAY IMAGE SECTION -->
+    <div class="image">
+        <p>Hover over the image to see the effect.</p>
+
+        <div class="container">
+            <img src="./images/Mount_Snowdon.jpg" alt="Avatar" class="overlay-image">
+            <div class="overlay">
+                <div class="text">Wales</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TABLE -->
+    <div class="table" id="home">
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Shell</td>
+                <td>Anna Lee</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Royal Mail</td>
+                <td>John Smith</td>
+                <td>UK</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- TWO COLUMNS -->
+    <div class="row">
+        <div class="column">Monday</div>
+        <div class="column">Tuesday</div>
+    </div>
+
+    <!-- YOUTUBE VIDEO -->
+    <div id="news">
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/9hZIfFjVZDc?si=d8nMjNm3qZmHmq1J"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- VIDEO -->
+    <div class="video my-5">
+        <video width="500" height="250" controls muted loop autoplay>
+            <source src="Wales.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- VIDEO WITH TEXT OVERLAY -->
+    <div class="container">
+        <div class="video my-5" style="position: relative; width: 500px; height: 250px;">
+            <video width="500" height="250" controls muted loop autoplay>
+                <source src="Wales_2.mp4" type="video/mp4">
+            </video>
+
+            <div class="centered"
+                style="
+                    position: absolute;
+                    top: 50%;
+                    left: 30%;
+                    transform: translate(-50%, -50%);
+                    color: white;
+                    font-size: 2rem;
+                    font-weight: bold;
+                    text-shadow: 2px 2px 5px black;
+                ">
+                Snowdonia
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <p>Interested?</p>
+    <p>Register here:</p>
+
+    <div id="contact">Register</div>
+
+    <form action="" method="get">
+        First Name: <input type="text" name="First_Name"><br>
+        Last Name: <input type="text" name="Last_Name"><br>
+        Email Address: <input type="text" name="Email_Address"><br>
+        <input type="submit" name="Submit">
+    </form>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Copyright</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="JS/one_page_website.js"></script>
+
+</body>
+</html>
