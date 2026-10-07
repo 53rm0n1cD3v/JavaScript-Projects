@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>getElementsByClassName_Example</title>
+</head>
+<body>
+<canvas id="myCanvas" width ="450" height="240" style="border:4px solid red;"></canvas>
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+// Draw text ABOVE the gradient area
+ctx.font = "30px Arial";
+ctx.strokeStyle = "black";
+ctx.strokeText("Greetings", 100, 30);
+
+// Create gradient
+const grd = ctx.createLinearGradient(0, 0, 170, 0);
+grd.addColorStop(0, "black");
+grd.addColorStop(1, "white");
+
+// Draw rectangle BELOW the text
+ctx.fillStyle = grd;
+ctx.fillRect(20, 60, 150, 100);
+</script>
+ 
+  <h2 class="item">First item</h2>
+  <p class="item">Second item</p>
+  <div class="item">Third item</div>
+
+  <button onclick="highlightItems()">Highlight Items</button>
+
+  <script src="Get_Element_By_Class.js"></script>
+
+</html>

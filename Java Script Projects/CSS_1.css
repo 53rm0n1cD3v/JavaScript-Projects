@@ -1,0 +1,84 @@
+/* Page layout */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e8e8e8, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding-top: 80px;
+}
+
+/* Wrapper for heading + form */
+.form-wrapper {
+  width: 350px;
+}
+
+/* Heading styling */
+h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Form box styling */
+form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  border: 1px solid #ddd;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+  margin-bottom: 18px;
+}
+
+/* Input focus effect */
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #0078ff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0,120,255,0.4);
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+/* Button hover */
+button:hover {
+  background: #005fcc;
+}

@@ -1,0 +1,53 @@
+/* Page layout */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 40px;
+  margin: 0;
+}
+
+/* Form container */
+form {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+
+/* Input focus effect */
+input[type="text"]:focus {
+  border-color: #0078ff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,120,255,0.4);
+}
